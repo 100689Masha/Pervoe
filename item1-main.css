@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Oswald&family=Playfair+Display:ital@1&family=Raleway:wght@500&family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+} 
+
+.header{
+    float: left;
+    font-size: 17px;
+    font-family: 'Oswald', sans-serif;
+    width: 384px;
+    height: 1296px;
+    background-color: #0b0b0d;
+    opacity: 50%;
+
+    } 
+.your{
+    color: #a276ff;
+}
+.logo {
+    font-size: 30px;
+    padding-top: 71px;
+    padding-left: 93px;
+}
+.logo span:hover{
+    color: #F2C94C;
+}
+.nav-menu{
+    padding-top: 94px;
+    margin-left: 139px;
+}
+.nav-menu-list li{
+    margin-top: 47px;
+    list-style-type: none;
+}
+.nav-menu-list li:first-child{    
+    margin-top: 0px;
+    width: 134px;    
+} 
+.nav-menu-list li span{
+    color: #a276ff;
+    border-left: 5px solid #a276ff;
+    border-radius: 5px;
+                    
+}
+.nav-menu-list li span:hover{
+    color: #F2C94C;
+    border-left: 5px solid #F2C94C;
+        
+}
+.nav-menu-1{
+    opacity: 70%;
+    padding-top: 394px;
+    margin-left: 131px;
+}
+.nav-menu-1-list li{
+    margin-top: 47px;
+    list-style-type: none;
+}
+.nav-menu-1-list li:first-child{    
+    margin-top: 0px;    
+} 
+.logo-1{
+    opacity: 25%;
+    padding-top: 81px;
+    margin-left: 131px;
+    padding-bottom: 105px;
+}
+
+.body{
+    margin-left: 384px;
+    width: 2172px;
+    height: 1296px;
+    background-color: #050729;
+    opacity: 90%;
+}
+
+.icon{
+    padding-left: 1248px;
+}
+.foto-1{
+    
+    padding-top: 117px;
+    padding-left: 112px;
+}
+.clean{
+    margin-top: -1000px;
+    padding-left: 222px;
+    font-size: 50px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    color: #111111;
+}
+.line{
+    padding-left: 221px;
+}
+.text-1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 29px;
+    font-weight: normal;
+    line-height: 150%;
+    padding-top: 20px;
+    padding-left: 222px;
+    width: 700px;
+}
+.text-2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 29px;
+    font-weight: normal;
+    line-height: 150%;
+    padding-top: 50px;
+    padding-left: 222px;
+    width: 700px;
+}
+.text-3{
+    font-family: 'Oswald', sans-serif;
+    font-size: 27px;
+    font-weight: bold;
+    line-height: 165%;
+    padding-top: 30px;
+    padding-left: 222px;
+    width: 700px;
+}
+.text-4{
+    font-family: 'Roboto', sans-serif;
+    font-size: 29px;
+    font-weight: normal;
+    line-height: 150%;
+    
+    padding-left: 222px;
+    width: 700px;
+}
+.text-5{
+    font-family: 'Oswald', sans-serif;
+    font-size: 27px;
+    font-weight: bold;
+    line-height: 165%;
+    padding-top: 40px;
+    padding-left: 222px;
+    width: 700px;
+}
+.text-6{
+    margin-top: -220px;
+    padding-left: 1200px;
+    width: 700px;
+}
+
+
+	
+
+
+
+    
+    
+    
+    
+
+
+    
+    

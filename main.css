@@ -82,8 +82,9 @@ a {
 }
 .icon{
     padding-left: 1248px;
-}
-.simple{
+        }
+
+ .simple{
     color: #fff;
     font-size: 56px;
     font-weight: bold;
@@ -144,9 +145,9 @@ a {
         display: inline-block;
         margin-right: 79px;
         padding-top: 93px;
-                
+                        
     }
-    .nav-img-list li:first-child{    
+        .nav-img-list li:first-child{    
         padding-left: 207px;
     }
     .icon-2{

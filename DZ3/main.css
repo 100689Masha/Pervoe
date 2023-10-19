@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    } 
+
+table{
+    margin-top: 100px;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    height: 700px;
+
+}
+.name{
+    font-size: 50px;
+    color: rgb(63, 62, 62);
+    font-weight: bolder;
+}
+.stroka1 td{
+    height: 200px;
+    background-color: #e9e3e3;
+    text-align: right;
+    font-size: 60px;
+    color: #665d5d;
+}
+
+.button{
+    border: none;
+    background: none;
+    font-size: 30px;
+    color: white;
+}
+.main-button {
+height: 100px;
+text-align: center;
+background-color: rgb(63, 62, 62);
+}
+.main-button td:hover{
+    background-color: #afabab;
+}
+.button1{
+    border: none;
+    background: none;
+    font-size: 30px;
+    font-weight: bold;
+    color: #F2c94c;
+}
+.button2{
+    border: none;
+    background: none;
+    font-size: 55px;
+    color: #F2c94c;
+}
+.stroka6 td{
+    background-color: #F2c94c;
+    text-align: center;
+    font-size: 55px;
+    font-weight: bold;
+    color: white;}

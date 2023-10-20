@@ -15,6 +15,7 @@ table{
     margin-right: auto;
     width: 1200px;
     height: 700px;
+    table-layout: fixed;
 
 }
 .name{
@@ -23,7 +24,7 @@ table{
     font-weight: bolder;
 }
 .stroka1 td{
-    height: 200px;
+    height: 100px;
     background-color: #e9e3e3;
     text-align: right;
     font-size: 60px;
@@ -31,12 +32,15 @@ table{
 }
 
 .button{
-    border: none;
+    cursor: pointer;
     background: none;
     font-size: 30px;
     color: white;
+    width: 100%;
+    height: 100%;
 }
 .main-button {
+cursor: pointer;
 height: 100px;
 text-align: center;
 background-color: rgb(63, 62, 62);
@@ -45,21 +49,28 @@ background-color: rgb(63, 62, 62);
     background-color: #afabab;
 }
 .button1{
-    border: none;
+    cursor: pointer;
     background: none;
     font-size: 30px;
     font-weight: bold;
     color: #F2c94c;
+    width: 100%;
+    height: 100%;
 }
 .button2{
-    border: none;
+    cursor: pointer;
     background: none;
     font-size: 55px;
     color: #F2c94c;
+    width: 100%;
+    height: 100%;
 }
-.stroka6 td{
+.stroka6 {
     background-color: #F2c94c;
     text-align: center;
     font-size: 55px;
     font-weight: bold;
-    color: white;}
+    color: white;
+    width: 100%;
+    height: 100%;
+}

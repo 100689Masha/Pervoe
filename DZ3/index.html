@@ -11,37 +11,43 @@
     <div id="calculator">
 <table>
     <caption class="name">КАЛЬКУЛЯТОР</caption>
-   <tr class="stroka1" >
-    <td colspan="4">0</td>
+    <tr class="stroka1">
+     <td colspan="4" id = "result">0</td>
+    </tr>
+   <tr class="stroka1">
+    <td colspan="4" id="input">0</td>
     </tr>
    <tr class="main-button">
-    <td><button class="button" type="button">7</button></td>
-    <td><button class="button" type="button">8</button></td>
-    <td><button class="button" type="button">9</button></td>
-    <td><button class="button1" type="button">X</button></td>
+    <td><button class="button" type="button" onclick="n7()">7</button></td>
+    <td><button class="button" type="button" onclick="n8()">8</button></td>
+    <td><button class="button" type="button" onclick="n9()">9</button></td>
+    <td><button class="button1" type="button" onclick="multiplication()">X</button></td>
    <tr class="main-button">
-    <td><button class="button" type="button">4</button></td>
-    <td><button class="button" type="button">5</button></td>
-    <td><button class="button" type="button">6</button></td>
-    <td><button class="button2" type="button">&#247;</button></td>
+    <td><button class="button" type="button" onclick="n4()">4</button></td>
+    <td><button class="button" type="button" onclick="n5()">5</button></td>
+    <td><button class="button" type="button" onclick="n6()">6</button></td>
+    <td><button class="button2" type="button" onclick="division()">&#247;</button></td>
     </tr>
     <tr class="main-button">
-    <td><button class="button" type="button">1</button></td>
-    <td><button class="button" type="button">2</button></td>
-    <td><button class="button" type="button">3</button></td>
-    <td><button class="button2" type="button">-</button></td>
+    <td><button class="button" type="button" onclick="n1()">1</button></td>
+    <td><button class="button" type="button" onclick="n2()">2</button></td>
+    <td><button class="button" type="button" onclick="n3()">3</button></td>
+    <td><button class="button2" type="button" onclick="minus()">-</button></td>
     </tr>
     <tr class="main-button">
-    <td><button class="button" type="button">0</button></td>
-    <td><button class="button" type="button">.</button></td>
-    <td><button class="button" type="button">C</button></td>
-    <td><button class="button2" type="button">+</button></td> 
+    <td><button class="button" type="button" onclick="n0()">0</button></td>
+    <td><button class="button" type="button" onclick="fraction()">.</button></td>
+    <td><button class="button" type="button" onclick="c()">C</button></td>
+    <td><button class="button2" type="button" onclick="plus()">+</button></td> 
     </tr>
-    <tr class="stroka6">
-    <td colspan="4">=</td>
+    <tr class="main-button">
+    <td><button class="button" type="button" onclick="bs()">&#10132;</button></td>
+    <td><button class="button" type="button" onclick="M()">М</button></td>
+    <td class="stroka6" colspan="2" onclick="equally()">=</td>
     </tr>
   
  </table>
 </div>
+<script src="main.js"></script>
  </body>
 </html>

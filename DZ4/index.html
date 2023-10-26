@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vue</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+        <div class="main">
+            <div class="header">
+              <div class="name">
+                <h2>МОЙ СПИСОК ДЕЛ</h2>
+              </div>
+              <div class="text">
+                <input class="pole" type="text" v-model="valueInput" v-on:input="handlyInput" v-on:keypress.enter="addTask">
+                <button class="add" v-on:click="addTask">Добавить</button>
+              </div>
+            </div> 
+            <div class="status">
+                <span>Сортировать по:</span>
+                <button v-on:click="sorted">Алфавит</button>
+            </div>
+            <ul class="list">
+                <li v-for="(mask, index) in needDoList" :key="mask.id" class="case">
+                    <input type="checkbox" style="transform:scale(2.0);" v-on:change="doCheck(index, 'need')" class="check">
+                    <div>
+                        <span>{{ mask.title }}</span>
+                       
+                    </div>
+                    <button class="remove" v-on:click="remove (index, 'need')">Удалить</button>
+                </li>                
+            </ul>
+            <ul class="list2">
+                <li v-for="(mask, index) in completeList" :key="mask.id" class="case">
+                    <input type="checkbox" style="transform:scale(2.0);" v-on:change="doCheck(index, 'complete')" checked class="check">
+                    <div>
+                        <span>{{ mask.title }}</span>
+                       
+                    </div>
+                    <button class="remove" v-on:click="remove (index, 'complete')">Удалить</button>
+                </li>                
+            </ul>                   
+        </div>
+    </div>    
+    <script src="https://unpkg.com/vue@next"></script>
+    <script src="app.js"></script>
+</body>
+</html>

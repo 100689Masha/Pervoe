@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.main{
+    width: 100%;
+    height: 870px;
+    background-color: #e9e3e3;
+}
+.header {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    background-color: pink;
+}
+.name{
+    position: absolute;
+    color: #665d5d;
+    font-weight: lighter;
+    margin-left: 30px;
+    margin-top: 37px;
+}
+.pole{
+    margin-left: 450px;
+    margin-top: 25px;
+    width: 500px;
+    height: 50px;
+    padding-left: 10px;
+    background-color: #e9e3e3;
+    font-size: 20px;
+    border: none;
+    }
+.add {
+    cursor: pointer;
+    position: relative;
+    top: 2px;
+    left: 20px;
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    color: #665d5d;
+    background-color: aqua;
+    border: none;
+}
+.add:hover{
+    background-color: palevioletred;
+}
+.status{
+    padding-left: 30px;
+    padding-top: 20px;
+}
+.status span {
+    font-size: 22px;
+}
+.status button{
+    cursor: pointer;
+    position: relative;
+    left: 15px;
+    font-size: 20px;
+    font-weight: 300;
+    color: #e9e3e3;
+    width: 100px;
+    height: 30px;
+    background-color: #665d5d;
+}
+.status button:hover{
+    background-color: palevioletred;
+}
+.list {
+    font-size: 22px;
+    list-style: none;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+input [type=checkbox] {
+    height: 20px;    
+}
+
+.remove{
+    cursor: pointer;
+    position: relative;
+    left: 20px;
+    width: 100px;
+    height: 30px;
+    background-color: #665d5d;
+    font-size: 20px;
+    font-weight: 300;
+    color: #e9e3e3;
+}
+.remove:hover{
+    background-color: palevioletred;
+}
+.list li {
+    margin-bottom: 5px;
+}
+.list div {
+    width: 500px;
+    display: inline-block;
+    word-wrap: break-word;
+    margin-left: 30px;
+}
+
+.list2 {
+    font-size: 22px;
+    list-style: none;
+    padding-left: 30px;      
+}
+
+.list2 li {
+    margin-bottom: 5px;
+}
+.list2 div {
+    width: 500px;
+    display: inline-block;
+    word-wrap: break-word;
+    margin-left: 30px;
+    text-decoration: line-through;
+}
+
+.check {
+    display: inline-block;
+}
+
+.case .check {
+    vertical-align: top;
+}

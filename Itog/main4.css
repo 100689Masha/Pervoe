@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+html{
+    background-color: #e0dada;
+}
+body {
+    
+    font-family: 'Open Sans', sans-serif;
+   
+}
+.main {
+    width: 1110px;
+    margin: 0 auto;
+}
+
+.nav-menu{
+    position: absolute;
+    right: 200px;
+}
+.nav-menu-list li {
+    display: inline-block;
+    margin-right: 60px;
+}
+.glavn{
+    color: blueviolet;
+}
+.nav-menu-list li :hover{
+    color: green
+}
+.name{
+    text-align: center;
+    padding-top: 35px;
+    letter-spacing: 5px;
+    text-decoration: underline;
+    color:  #524d4d;
+}
+.please{
+    width: 350px; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 50px;
+    
+}
+#first-name {
+    border: 2px solid green;
+    border-radius: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 350px;
+    height: 35px;
+}
+#email {
+    border: 2px solid green;
+    border-radius: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    width: 350px;
+    height: 35px;
+}
+#message{
+    border: 2px solid green;
+    border-radius: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    width: 350px;
+}
+#submit{
+    cursor: pointer;
+    font-size: 25px;
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    width: 320px;
+    height: 50px;
+}
+.mail{
+    display: flex;
+    margin-left: 36%;
+    margin-top: 3%;
+    
+}
+.mail p{
+    margin-left: 15px;
+    font-weight: 700;
+    display: flex;
+    align-items:center;
+    color: #524d4d;
+}
+.mail a{
+    display: flex;
+    align-items:center;
+    color: #524d4d;
+    padding-left: 4px;
+}
+.mail a:hover{
+    color: green;
+}
+.vk{
+    display: flex;
+    margin-left: 36%;
+    margin-top: 3%;
+    
+}
+.vk p{
+    margin-left: 15px;
+    font-weight: 700;
+    display: flex;
+    align-items:center;
+    color: #524d4d;
+}
+.vk a{
+    display: flex;
+    align-items:center;
+    color: #524d4d;
+    padding-left: 4px;
+}
+.vk a:hover{
+    color: green;
+}
+.burger-menu{
+    display: none;
+  }
+
+  /* Media  */
+ @media(min-width: 320px) and (max-width:768px){
+   
+    .main{
+       width: 100%;
+    }
+    .nav-menu{
+        display: none;
+    }
+    
+
+    .burger-menu {
+        display: block;
+        
+        
+      }
+  
+      .burger {
+        position: absolute;
+        right: 5px;
+        width: 30px;
+        height: 25px;
+        cursor: pointer;
+      }
+  
+      .burger span {
+        display: block;
+        width: 100%;
+        height: 3px;
+        background-color: green ;
+        transition: transform 0.3s ease;
+      }
+  
+  
+      .burger span:nth-child(2),
+      .burger span:nth-child(3) {
+        margin-top: 5px;
+      }
+  
+      .burger span:nth-child(4) {
+        margin-top: 5px;
+      }
+  
+     
+      .menu {
+        display: none;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        padding: 10px;
+        background-color: #524d4d;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+      }
+  
+      .menu.active {
+          display: block;
+      }
+  
+      .menu a {
+        display: block;
+        padding: 5px 0;
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+      }
+      .name{
+        font-size: 50%;
+        text-align: center;
+        padding-top: 35px;
+        letter-spacing: 5px;
+        text-decoration: underline;
+        color:  #524d4d;
+
+      }
+      .mail{
+        display: none;
+      }
+      .vk{
+        display: none;
+      }
+
+    }

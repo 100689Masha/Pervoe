@@ -1,0 +1,382 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+html{
+    background-color: #e0dada;
+}
+body {
+    
+    font-family: 'Open Sans', sans-serif;
+   
+}
+.main {
+    width: 1110px;
+    margin: 0 auto;
+}
+
+.nav-menu{
+    position: absolute;
+    right: 200px;
+}
+.nav-menu-list li {
+    display: inline-block;
+    margin-right: 60px;
+}
+.glavn{
+    color: blueviolet;
+}
+.nav-menu-list li :hover{
+    color: green
+}
+.name{
+    text-align: center;
+    padding-top: 35px;
+    letter-spacing: 5px;
+    text-decoration: underline;
+    color:  #524d4d;
+}
+.html{
+    position: absolute;
+    top: 150px;
+    left: 30px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    width: 330px;
+    height: 55px;
+    border: 5px solid black;
+    border-radius: 20px;
+    background-color: #50c13d;
+}
+.javascript{
+    position: absolute;
+    top: 280px;
+    left: 300px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    width: 310px;
+    height: 55px;
+    border: 5px solid black;
+    border-radius: 20px;
+    background-color:  #50c13d;
+}
+.freim{
+    position: absolute;
+    top: 150px;
+    left: 500px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    width: 700px;
+    height: 55px;
+    border: 5px solid black;
+    border-radius: 20px;
+    background-color: #50c13d;
+}
+.project{
+    position: absolute;
+    top: 280px;
+    right: 30px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    width: 570px;
+    height: 55px;
+    border: 5px solid black;
+    border-radius: 20px;
+    background-color: #50c13d;
+}
+.mobil{
+    position: absolute;
+    top: 415px;
+    left: 30px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    width: 570px;
+    height: 55px;
+    border: 5px solid black;
+    border-radius: 20px;
+    background-color: #50c13d;
+}
+.cross{
+    position: absolute;
+    top: 415px;
+    left: 750px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    width: 570px;
+    height: 55px;
+    border: 5px solid black;
+    border-radius: 20px;
+    background-color: #50c13d;
+}
+.git{
+    position: absolute;
+    top: 555px;
+    left: 180px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    width: 200px;
+    height: 55px;
+    border: 5px solid black;
+    border-radius: 20px;
+    background-color: #50c13d;
+}
+.sistems{
+    position: absolute;
+    top: 555px;
+    left: 680px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    width: 730px;
+    height: 55px;
+    border: 5px solid black;
+    border-radius: 20px;
+    background-color:  #50c13d;
+}
+.adapt{
+    position: absolute;
+    top: 695px;
+    left: 500px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    width: 450px;
+    height: 55px;
+    border: 5px solid black;
+    border-radius: 20px;
+    background-color: #50c13d;
+}
+.navik{
+    position: absolute;
+    text-align: center;
+    top: -10px;
+    left: 80px;
+    right: 80px;
+}
+.burger-menu{
+    display: none;
+  }
+
+  /* Media  */
+ @media(min-width: 320px) and (max-width:768px){
+   
+    .main{
+       width: 100%;
+    }
+    .nav-menu{
+        display: none;
+    }
+    
+
+    .burger-menu {
+        display: block;
+        
+        
+      }
+  
+      .burger {
+        position: absolute;
+        right: 5px;
+        width: 30px;
+        height: 25px;
+        cursor: pointer;
+      }
+  
+      .burger span {
+        display: block;
+        width: 100%;
+        height: 3px;
+        background-color: green ;
+        transition: transform 0.3s ease;
+      }
+  
+  
+      .burger span:nth-child(2),
+      .burger span:nth-child(3) {
+        margin-top: 5px;
+      }
+  
+      .burger span:nth-child(4) {
+        margin-top: 5px;
+      }
+  
+     
+      .menu {
+        display: none;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        padding: 10px;
+        background-color: #524d4d;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+      }
+  
+      .menu.active {
+          display: block;
+      }
+  
+      .menu a {
+        display: block;
+        padding: 5px 0;
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+      }
+      .name{
+        font-size: 50%;
+        text-align: center;
+        padding-top: 35px;
+        letter-spacing: 5px;
+        text-decoration: underline;
+        color:  #524d4d;
+    }
+    .html{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 100px;
+        left: 0;
+        overflow: auto;
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+        height: 22px;
+        border: 3px solid black;
+        border-radius: 5px;
+        background-color: #50c13d;
+    }
+    .javascript{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 170px;
+        left: 0;
+        overflow: auto;
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+        height: 22px;
+        border: 3px solid black;
+        border-radius: 5px;
+        background-color: #50c13d;
+    }
+    .freim{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 230px;
+        left: 0;
+        overflow: auto;
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+        height: 22px;
+        border: 3px solid black;
+        border-radius: 5px;
+        background-color: #50c13d;
+    }
+    .project{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 300px;
+        left: 0;
+        overflow: auto;
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+        height: 22px;
+        border: 3px solid black;
+        border-radius: 5px;
+        background-color: #50c13d;
+    }
+    .mobil{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 370px;
+        left: 0;
+        overflow: auto;
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+        height: 22px;
+        border: 3px solid black;
+        border-radius: 5px;
+        background-color: #50c13d;
+    }
+    .cross{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 440px;
+        left: 0;
+        overflow: auto;
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+        height: 22px;
+        border: 3px solid black;
+        border-radius: 5px;
+        background-color: #50c13d;
+    }
+    .git{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 510px;
+        left: 0;
+        overflow: auto;
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+        height: 22px;
+        border: 3px solid black;
+        border-radius: 5px;
+        background-color: #50c13d;
+    }
+    .sistems{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 580px;
+        left: 0;
+        overflow: auto;
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+        height: 22px;
+        border: 3px solid black;
+        border-radius: 5px;
+        background-color: #50c13d;
+    }
+    .adapt{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 650px;
+        left: 0;
+        overflow: auto;
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+        height: 22px;
+        border: 3px solid black;
+        border-radius: 5px;
+        background-color: #50c13d;
+    }
+    
+    }
